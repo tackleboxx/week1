@@ -21,6 +21,9 @@ h1 {
 	width:600px;
 	height:72px;
 }
+header h1 {
+	text-indent:-9999;
+}
 
 
 
