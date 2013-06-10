@@ -4,11 +4,11 @@
 /* ---------------------------------GENERAL SITE------------------------------------------------> */
 
 body {
-	background:#000;
+	background:#fff;
 }
 h1 {
 	font-family: 'IM Fell Double Pica SC', serif;
-	color: #fff;
+	color: #000;
 }
 #wrapper {
 	width:960px;
