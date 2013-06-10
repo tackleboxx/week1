@@ -17,7 +17,9 @@ h1 {
 /* ---------------------------------HEADER ------------------------------------------------> */
 
 #logo {
-	
+	background-image: url(../images/logo.png);
+	width:600px;
+	height:72px;
 }
 
 
