@@ -21,7 +21,7 @@ h1 {
 	width:600px;
 	height:72px;
 }
-header h1 {
+.logo_text {
 	text-indent:-9999;
 }
 
