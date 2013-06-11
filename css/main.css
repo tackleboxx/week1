@@ -3,23 +3,35 @@
 
 /* ---------------------------------GENERAL SITE------------------------------------------------> */
 
+#wrapper {
+	width:960px;
+	margin:0 auto;
+}
 body {
-	background:#fff;
+	background:#000;
+	margin:0;
+	padding:0;
+	color:#fff;
 }
 h1 {
 	font-family: 'IM Fell Double Pica SC', serif;
 	color: #000;
 }
-#wrapper {
-	width:960px;
-	margin:0 auto;
-}
+
 /* ---------------------------------HEADER ------------------------------------------------> */
 
+header {
+	background-color:#000;
+	width:960px;
+	height:75px;
+	margin-bottom:10px;
+	float:left;
+}
 #logo {
 	background-image: url(../images/logo.png);
-	width:600px;
-	height:72px;
+	width:400px;
+	height:48px;
+	float:left;
 }
 .logo_text {
 	text-indent:-9999px;
@@ -29,7 +41,36 @@ h1 {
 
 
 /* ---------------------------------NAV ------------------------------------------------> */
-
+nav ul {
+	width:410px;
+	margin:0 auto;
+	list-style-type: none;
+	padding:0;
+	float:right;
+	overflow:hidden;
+}
+nav li {
+	width:100px;
+	float:left;
+	border-left:#fff solid 1px;
+}
+nav a {
+	text-decoration: none;
+	display:block;
+	height:75px;
+	line-height:75px;
+	text-align: center;
+	color:#fff;
+}
+nav a:hover {
+	background:#fff;
+	color:#f00;
+}
 /* ---------------------------------CONTENT------------------------------------------------> */
-
+#main_cta {
+	background-color:#000;
+	width:960px;
+	height:400px;
+	margin: 0 auto;
+}
 /* ---------------------------------FOOTER ------------------------------------------------> */
