@@ -9,7 +9,7 @@
 }
 body {
 	background:#000;
-	background-image: url(../images/main_bg.jpg)
+	background-image: url(../images/main_bg.jpg);
 	margin:0;
 	padding:0;
 	color:#fff;
@@ -79,5 +79,4 @@ nav a:hover {
 	height:50px;
 	border-radius:10px;
 	float:right;
-}
 /* ---------------------------------FOOTER ------------------------------------------------> */
