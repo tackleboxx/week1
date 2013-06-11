@@ -9,6 +9,7 @@
 }
 body {
 	background:#000;
+	background-image: url(../images/main_bg.jpg)
 	margin:0;
 	padding:0;
 	color:#fff;
