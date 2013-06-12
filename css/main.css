@@ -113,11 +113,32 @@ nav a:hover {
 }
 /* ---------------------------------GALLERY ------------------------------------------------> */
 #gallery {
-	width:955px;
-	margin:0 auto;
-	border:1px dashed #fff;
+	width:960px;
 }
 #gallery ul {
 	border:1px dashed #fff;
+	padding:5px;
+	list-style-type: none;
+	overflow:hidden;
+}
+#gallery li {
+	float:left;
+	margin-left:20px;
+}
+#gallery a {
+	border:10px solid #fff;
+	display:block;
+	width:150px;
+	height:150px;
+	outline:0;
+}
+#gallery a:visited {
+	border-color:#fff;
+}
+#gallery a:hover {
+	border-color:#f00;
+}
+#gallery a:active {
+	border-color:#000;
 }
 /* ---------------------------------FOOTER ------------------------------------------------> */
