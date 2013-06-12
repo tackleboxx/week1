@@ -114,16 +114,18 @@ nav a:hover {
 /* ---------------------------------GALLERY ------------------------------------------------> */
 #gallery {
 	width:960px;
+	margin:0 auto;
 }
 #gallery ul {
 	border:1px dashed #fff;
 	padding:5px;
 	list-style-type: none;
+	margin:0 auto;
 	overflow:hidden;
 }
 #gallery li {
 	float:left;
-	margin-left:20px;
+	margin-left:15px;
 }
 #gallery a {
 	border:10px solid #fff;
