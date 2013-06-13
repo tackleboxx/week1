@@ -114,14 +114,20 @@ nav a:hover {
 #main_content {
 	width:500px;
 	float:left;
-	padding:5px;
+	padding:0 5px;
+}
+.multi_column {
+	width:300px;
+	float:left;
+	margin-left: 20px;
 }
 
 /* ---------------------------------GALLERY ------------------------------------------------> */
 #gallery {
 	width:420px;
-	margin:0 auto;
 	float:left;
+	margin-bottom:10px;
+	
 }
 #gallery ul {
 	border:1px dashed #fff;
