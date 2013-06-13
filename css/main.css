@@ -116,6 +116,12 @@ nav a:hover {
 	float:left;
 	padding:0 5px;
 }
+#article_border {
+	width:960px;
+	height:350px;
+	border-bottom: 1px solid #fff;
+	clear:both;
+}
 .multi_column {
 	width:300px;
 	float:left;
