@@ -102,7 +102,7 @@ nav a:hover {
 	text-shadow:2px 3px 0px #b23e35;
 	float:right;
 	margin-top: 325px;
-	margin-right:10px;
+	margin-right:5px;
 }
 .lets_work_cta_btn:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
