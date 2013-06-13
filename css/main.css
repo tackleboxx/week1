@@ -114,11 +114,12 @@ nav a:hover {
 #main_content {
 	width:500px;
 	float:left;
-	padding:0 5px;
+	padding:0 12px;
 }
 #article_border {
 	width:960px;
 	height:350px;
+	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	clear:both;
 }
@@ -136,11 +137,10 @@ nav a:hover {
 #gallery {
 	width:420px;
 	float:left;
-	margin-bottom:10px;
+	margin-bottom:20px;
 	
 }
 #gallery ul {
-	border:1px dashed #fff;
 	padding:5px;
 	list-style-type: none;
 	margin:0 auto;
@@ -149,6 +149,7 @@ nav a:hover {
 #gallery li {
 	float:left;
 	margin-left:15px;
+	margin-bottom:15px;
 }
 #gallery a {
 	border:10px solid #fff;
