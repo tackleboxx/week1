@@ -142,6 +142,18 @@ nav a:hover {
 }
 table {
 	width:48.958333333333%;
+	float:left;
+	padding:0;
+	border: solid 1px #fff;
+	margin-right: 1%;
+	text-align: left;
+}
+th {
+	background-color:#999;
+}
+td {
+	border: solid 1px #fff;
+	padding:.3em;
 }
 /* ---------------------------------GALLERY ------------------------------------------------> */
 #gallery {
