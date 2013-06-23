@@ -136,28 +136,55 @@ nav a:hover {
 .testimonials {
 	width:100%;
 	float:left;
-	margin-top:15px;
+	margin-bottom:5%;
 	text-align: center;
 	border-bottom: 1px solid #fff;
 }
+/* ---------------------------------TABLE ------------------------------------------------> */
 table {
 	width:48.958333333333%;
 	float:left;
 	padding:0;
-	border: solid 1px #fff;
 	margin-right: 1%;
 	text-align: left;
 	border-collapse:collapse;
 }
 th {
-	background-color:#999;
-	font-size:1.2em;
 	padding:.3em;
+	font-family: 'Sonsie One', cursive;
+	font-size: 1.5em;
+	color: #fff;
+	border-bottom: solid 1px #fff;
 }
 td {
-	border: solid 1px #fff;
 	padding:.3em;
+	line-height:50px;
+	text-align: left;
+	font-family: 'Sonsie One', cursive;
+	font-size: 1em;
+	color: #fff;
+	text-shadow: 1px 1px #fff;
 }
+/* ---------------------------------FORM ------------------------------------------------> */
+
+form {
+	width:48.958333333333%;
+	float:left;
+	margin-bottom: 2em;
+}
+input {
+	width:100%;
+	border-radius:7px;
+	margin-bottom:5px;
+}
+input:focus {
+	background:#f00;
+	color:#fff;
+}
+textarea {
+	width:100%;
+}
+
 /* ---------------------------------GALLERY ------------------------------------------------> */
 #gallery {
 	width:43.75%;/*420px*/
