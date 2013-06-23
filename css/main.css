@@ -140,7 +140,9 @@ nav a:hover {
 	text-align: center;
 	border-bottom: 1px solid #fff;
 }
-
+table {
+	width:48.958333333333%;
+}
 /* ---------------------------------GALLERY ------------------------------------------------> */
 #gallery {
 	width:43.75%;/*420px*/

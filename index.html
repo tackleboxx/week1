@@ -94,15 +94,44 @@
 	<div>
 		<h1>Contact Me</h1>
 		<form method="post" action=" mailto:joe@example.com">
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
+			<fieldset>
+				<legend>Tell Me How I Can Help You</legend>
+			<div>
+				<label for="name_first">First Name:</label>
+				<input type="text" name="name_first" id="name_first" />
+			</div>
+			<div>
+				<label for="name_last">Last Name:</label>
+				<input type="text" name="name_last" id="name_last" />
+			</div>
+			<div>
+				<label for="phone">Phone:</label>
+				<input type="text" name="phone" id="name_phone" />
+			</div>
+			<div>
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email" />
+			</div>
+			<div>
+				<label for="regarding">Regarding:</label>
+				
+			</div>
+			<div>
+				<select name="regarding" id="regarding">
+					<option>Web Design</option>
+					<option>Graphic Design</option>
+					<option>Video shooting / Editing</option>
+					<option>other</option>
+				</select>
+			</div>
+			<div>
+				<label for="message">Message:</label>
+				<textarea rows="15" cols="50" id="message"></textarea>
+			</div>
+			<div>
+				<button type="button">Submit</button>
+			</div>
+			</fieldset>
 		</form>
 	</div> <!--END FORM-->
 	
