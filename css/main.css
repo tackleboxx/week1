@@ -147,9 +147,12 @@ table {
 	border: solid 1px #fff;
 	margin-right: 1%;
 	text-align: left;
+	border-collapse:collapse;
 }
 th {
 	background-color:#999;
+	font-size:1.2em;
+	padding:.3em;
 }
 td {
 	border: solid 1px #fff;
