@@ -31,13 +31,12 @@ h1 {
 header {
 	background-color: #000;
 	width: 100%; /* 960px */
-	height: 66;
+	height: 66px;
 	float: left;
 }
 #logo {
 	width:55.666666666667%; /* 400px */
 	height:66px;
-	background-image: url(../images/logo.png) repeat: no-repeat;
 	float:left;
 }
 .logo_text {
@@ -145,7 +144,7 @@ nav a:hover {
 
 /* ---------------------------------GALLERY ------------------------------------------------> */
 #gallery {
-	width:43.75% /*420px*/
+	width:43.75%;/*420px*/
 	float:left;
 	margin-bottom:20px;
 	
