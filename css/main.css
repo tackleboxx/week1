@@ -227,7 +227,12 @@ footer {
 	width:100%;
 	text-align: center;
 }
-
+footer img {
+	
+}
+footer img:hover {
+	opacity: .5;
+}
 
 /* = Media Queries
 =======================================================================*/
