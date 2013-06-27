@@ -228,7 +228,7 @@ footer {
 	text-align: center;
 }
 footer img {
-	
+	padding-left: .5em;
 }
 footer img:hover {
 	opacity: .5;
@@ -255,20 +255,27 @@ footer img:hover {
 		float: left;
 		overflow: hidden;
 } 
-footer {
-	width:100%;
-	text-align: center;
-	clear:both;
-}	
-table {
-	width:90%;
-	padding:0;
-	text-align: left;
-	border-collapse:collapse;
+	footer {
+		width:100%;
+		text-align: center;
+		clear:both;
 }
-form {
-	width:90%;
-	margin-top:10px;
+	footer img {
+		padding-left: .5em;
+}
+footer img:hover {
+		opacity: .5;
+}
+	
+	table {
+		width:90%;
+		padding:0;
+		text-align: left;
+		border-collapse:collapse;
+}
+	form {
+		width:90%;
+		margin-top:10px;
 }
 }
 /* Mobile landscape size to tablet portrait (device and browsers) */
@@ -303,25 +310,32 @@ form {
 		display:none;
 }
 	footer {
-	width:100%;
-	text-align: center;
-	clear:both;
+		width:100%;
+		text-align: center;
+		clear:both;
 }	
+	footer img {
+		padding-left: .5em;
+}
+	footer img:hover {
+		opacity: .5;
+}
+
 	#article_border {
 		width:90%;
 		height:50%;
 		border:none;
 	
 }
-table {
-	width:90%;
-	padding:0;
-	text-align: left;
-	border-collapse:collapse;
+	table {
+		width:90%;
+		padding:0;
+		text-align: left;
+		border-collapse:collapse;
 }
-form {
-	width:90%;
-	margin-top:10px;
+	form {
+		width:90%;
+		margin-top:10px;
 }
 }
 
@@ -330,7 +344,7 @@ form {
 @media only screen and (max-width: 479px) {
 	#logo {
 		width:100%;
-	}
+}
 	
 	#main_cta {
 		display:none;
@@ -344,7 +358,7 @@ form {
 		overflow: hidden;
 } 
 	#gallery {
-	display:none;
+		display:none;
 	
 }
 	#gallery li {
@@ -372,16 +386,23 @@ form {
 	h1 {
 		line-height: 1.25em;
 }
-table {
-	display:none;
+	table {
+		display:none;
 }
 	footer {
-	width:100%;
-	text-align: center;
-	clear:both;
+		width:100%;
+		text-align: center;
+		clear:both;
 }
-form {
-	width:90%;
-	margin-top:10px;
+	footer img {
+		padding-left: .5em;
+}
+	footer img:hover {
+		opacity: .5;
+}
+
+	form {
+		width:90%;
+		margin-top:10px;
 }	
 }
