@@ -119,7 +119,7 @@ nav a:hover {
 #main_content {
 	width:52.083333333333%;
 	float:left;
-	padding:0 12px;
+	padding-left: 2%;
 }
 #article_border {
 	width:100%;
@@ -175,7 +175,7 @@ form {
 input {
 	width:100%;
 	border-radius:7px;
-	margin-bottom:5px;
+	margin-bottom:3%;
 }
 input:focus {
 	background:#f00;
@@ -189,7 +189,7 @@ textarea {
 #gallery {
 	width:43.75%;/*420px*/
 	float:left;
-	margin-bottom:20px;
+	margin-bottom:6%;
 	
 }
 #gallery ul {
@@ -201,7 +201,7 @@ textarea {
 #gallery li {
 	float:left;
 	margin-left:03.571428571429%; /*15px*/
-	margin-bottom:15px;
+	margin-bottom:7%;
 }
 #gallery a {
 	border:10px solid #fff;
@@ -284,7 +284,9 @@ footer img:hover {
 	#logo {
 		width:100%;
 	}
-	#gallery li { float:left; }
+	#gallery li { 
+		float:left; 
+}
 	#main_content {
 		width:90%;
 		float:none;
@@ -346,8 +348,8 @@ footer img:hover {
 		width:100%;
 }
 	
-	#main_cta {
-		display:none;
+	#gallery li { 
+		float:left; 
 }
   	nav ul {
 		width: 100%; /* 410px */
@@ -357,11 +359,7 @@ footer img:hover {
 		float: left;
 		overflow: hidden;
 } 
-	#gallery {
-		display:none;
-	
-}
-	#gallery li {
+	#main_cta {
 		display:none;
 }
 	#main_content {
